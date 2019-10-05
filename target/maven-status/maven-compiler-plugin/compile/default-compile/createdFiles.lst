@@ -1,0 +1,9 @@
+com\amzon\qa\pages\CustomercarePAge.class
+com\amzon\qa\pages\SignupPage.class
+com\amzon\qa\pages\TodayDealPage.class
+com\amzon\qa\pages\HomePage.class
+com\crm\qa\util\utilsTest.class
+com\amzon\qa\pages\LoginPage.class
+com\qa\ExtendreportListerner\ExtentReporterNG.class
+com\crm\qa\util\WebEventListener.class
+com\amzon\qa\base\TestBase.class

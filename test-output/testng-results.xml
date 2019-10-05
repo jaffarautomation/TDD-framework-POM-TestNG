@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77435" started-at="2019-10-05T08:20:10Z" finished-at="2019-10-05T08:21:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77435" started-at="2019-10-05T08:20:10Z" finished-at="2019-10-05T08:21:27Z">
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SocialStudiesBookTest@2d209079]" name="setup" is-config="true" duration-ms="36374" started-at="2019-10-05T13:50:10Z" finished-at="2019-10-05T13:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verificationOfSocialBookTitlePage()[pri:1, instance:com.amazon.qa.testcases.SocialStudiesBookTest@2d209079]" name="verificationOfSocialBookTitlePage" duration-ms="557" started-at="2019-10-05T13:50:46Z" finished-at="2019-10-05T13:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfSocialBookTitlePage -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SocialStudiesBookTest@2d209079]" name="setup" is-config="true" duration-ms="40086" started-at="2019-10-05T13:50:47Z" finished-at="2019-10-05T13:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@2d209079]" name="ClickOnTheFirstSocailBook" duration-ms="396" started-at="2019-10-05T13:51:27Z" depends-on-methods="com.amazon.qa.testcases.SocialStudiesBookTest.verificationOfSocialBookTitlePage" finished-at="2019-10-05T13:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTheFirstSocailBook -->
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
