@@ -20,7 +20,15 @@ Base package: It cosist of TestBase class which is acting as a super class for e
               
 Config package: It consist of Config file which is used to define the Enviroment variable.
 
-utils package : It is acting as a library. All resuable codes are define in this package. For Ex: JavaScriptMethod class conist of basic java script
-                method such as scroll which can be used throughout the framework.
-                Also WebDriver event listner is defines
+utils package : It is acting as a library. All resuable codes are define in this package. For Ex: JavaScriptMethod class conist of basic                   java script method such as scroll which can be used throughout the framework.
+                Also WebDriver event listner is define.
+                
+ExtendedReport package: It consist of file for extended driver functionality
+
+Page pacakge : It consist of classes which are build for each pages in functionality need to be tested.
+
+
+b) Test java Folder contains one package as named Testcases. It consist of classes with same names which were created in pages package with Test keyword.
+
+
                      
