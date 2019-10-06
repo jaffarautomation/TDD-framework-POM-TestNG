@@ -54,11 +54,21 @@ public class SocialStudiesBookTest extends TestBase {
 		        utilsTest.takesreen(driver, "SocialBook Title");
 		}
 		
+		
+		//This method will print the name of the book which is first on the list of the page
+		
+		@Test(priority = 2, dependsOnMethods= {"verificationOfSocialBookTitlePage"})
+		public void NameofBook()
+		{
+			
+			String Name =SocialStudy.getNameOfBook();
+			System.out.println(Name);
+		}
 	
 		//This method will call the method from SocialStudiesBook class from pages package and click on the first book available from the page.
 		//Also this method is depends on "verificationOfSocialBookTitlePage". 
 		@Test(priority=2, dependsOnMethods= {"verificationOfSocialBookTitlePage"})
-		public void ClickOnTheFirstSocailBook()
+		public void ClickOnTheFirstSocailBook() throws Throwable
 		{
 			SocialStudy.clickfirstonbook();
 		}

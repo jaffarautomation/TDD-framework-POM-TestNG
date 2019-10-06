@@ -1,6 +1,7 @@
 package com.crm.qa.util;
 
 import java.io.File;
+import java.util.Set;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -10,6 +11,10 @@ import org.openqa.selenium.io.FileHandler;
 import com.amzon.qa.base.TestBase;
 
 public class utilsTest extends TestBase{
+	
+	
+	
+	static String  ParentWindow;
 
 	public utilsTest() throws Throwable {
 		super();
@@ -37,4 +42,39 @@ public class utilsTest extends TestBase{
 	   FileHandler.copy(o, new File("./Screenshot/"+Screenshotname+".png"));
 	}
 
+	
+	
+	//This method will return the parent window ID
+	public static void ParentWindow()
+	{
+		 ParentWindow = driver.getWindowHandle();
+		System.out.println("Parent Window or Current Open TAB ID is : " +ParentWindow);
+	}
+	
+	
+	//This method is design to switch from parent window to child window
+	public static void ChildWindow()
+	{
+	Set<String> NoofWindow =	driver.getWindowHandles();
+	System.out.println(NoofWindow);
+	System.out.println(NoofWindow.size());
+	
+	for (String childwindow : NoofWindow) {
+		
+		if(!ParentWindow.equals(childwindow))
+		{
+			
+			driver.switchTo().window(childwindow);
+			System.out.println("Switch to New Tab or Child window was successfull");
+			break;
+		}
+	}}
+	
+	public static void DefaultWindow()
+	{
+		
+		driver.switchTo().window(ParentWindow);
+		System.out.println("Switch to parent window again successfully");
+	}
+	
 }

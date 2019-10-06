@@ -51,7 +51,7 @@ public class HomePageTest extends TestBase {
 	}
 	
 	
-	@Test(priority =4, dependsOnMethods = {"verifyusername"}, enabled =false)
+	@Test(priority =4, dependsOnMethods = {"verifyusername"}, enabled =true)
 	public void click_on_CC() throws Throwable
 	{
 		Customercare_variable =homepage.Clickoncustomerservice();
@@ -71,7 +71,7 @@ public class HomePageTest extends TestBase {
 	//In NavigateToBook method we can pass the type of books options.
 	//For ex: i have passed School textbook type in books category.
 	
-	@Test(priority =3)
+	@Test(priority =3, dependsOnMethods= {"verifyusername"})
 	public void Navigatetobook() throws Throwable
 	
 	{

@@ -20,11 +20,13 @@ public class SocialStudiesBook extends TestBase {
 	
 	    // pagefactory -> OR
 	
-	    //This page factory will always select the first book from the page
-		@FindBy(xpath="//div[@class=\"s-result-list s-search-results sg-row\"]/div/div/span/div/div/div[2]/div/div/div/span/a/div/img")
+	    //This page factory will always select the first book from the page.
+	    //This is  Xpath is build as dynamic xpath 
+		@FindBy(xpath="//div[@class='s-result-list s-search-results sg-row']/div/div/span/div/div/div[2]/div/div/div/span/a/div/img")
         WebElement SelectFirstBook;	
 		
-		
+		@FindBy(xpath="//div[@class='s-result-list s-search-results sg-row']/div/div/span/div/div/div[2]/div[2]/div/div/div/div/div/h2/a/span")
+        WebElement SelectFirstBookName;	
 		
 		
 		
@@ -38,13 +40,21 @@ public class SocialStudiesBook extends TestBase {
 			
 		}
 		
+		//This method will return the name of the book which is first on the list of page.
+		public String getNameOfBook()
+		{
+			
+			return SelectFirstBookName.getText();
+		}
 		
-		//This method click on the Click on the First book from the page, doesnt matter which book it is. 
-		public void clickfirstonbook()
+		
+		
+		//This method click on the Click on the First book from the page, doesn't matter which book it is. 
+		public MoreInformationPageOnBook clickfirstonbook() throws Throwable
 		{
 			
 			SelectFirstBook.click();
-			
+			return new MoreInformationPageOnBook();
 		}
 		
 		
