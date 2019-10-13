@@ -1,343 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="3" total="12" passed="8">
+<testng-results skipped="6" failed="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="AmazonTest" duration-ms="473783" started-at="2019-10-06T11:41:58Z" finished-at="2019-10-06T11:49:52Z">
+  <suite name="Default suite" duration-ms="59576" started-at="2019-10-10T03:05:21Z" finished-at="2019-10-10T03:06:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="473783" started-at="2019-10-06T11:41:58Z" finished-at="2019-10-06T11:49:52Z">
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="setup" is-config="true" duration-ms="28756" started-at="2019-10-06T17:15:14Z" finished-at="2019-10-06T17:15:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verificationOfSocialBookTitlePage()[pri:1, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="verificationOfSocialBookTitlePage" duration-ms="659" started-at="2019-10-06T17:15:43Z" finished-at="2019-10-06T17:15:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificationOfSocialBookTitlePage -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="setup" is-config="true" duration-ms="37420" started-at="2019-10-06T17:15:43Z" finished-at="2019-10-06T17:16:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="ClickOnTheFirstSocailBook" duration-ms="649" started-at="2019-10-06T17:16:21Z" depends-on-methods="com.amazon.qa.testcases.SocialStudiesBookTest.verificationOfSocialBookTitlePage" finished-at="2019-10-06T17:16:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnTheFirstSocailBook -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="setup" is-config="true" duration-ms="45518" started-at="2019-10-06T17:16:21Z" finished-at="2019-10-06T17:17:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="NameofBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@7a79be86]" name="NameofBook" duration-ms="83" started-at="2019-10-06T17:17:07Z" depends-on-methods="com.amazon.qa.testcases.SocialStudiesBookTest.verificationOfSocialBookTitlePage" finished-at="2019-10-06T17:17:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NameofBook -->
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
-      <class name="com.amazon.qa.testcases.School_BookTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="setup" is-config="true" duration-ms="28821" started-at="2019-10-06T17:18:24Z" finished-at="2019-10-06T17:18:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verificationOfBookTitlePage()[pri:1, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="verificationOfBookTitlePage" duration-ms="681" started-at="2019-10-06T17:18:52Z" finished-at="2019-10-06T17:18:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificationOfBookTitlePage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="teardown" is-config="true" duration-ms="777" started-at="2019-10-06T17:18:53Z" finished-at="2019-10-06T17:18:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-06T17:18:54Z" finished-at="2019-10-06T17:18:54Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email']"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 02e287adfd6cd7fc44c77cdeee0b11e1
-*** Element info: {Using=xpath, value=//input[@type='email']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email']"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 02e287adfd6cd7fc44c77cdeee0b11e1
-*** Element info: {Using=xpath, value=//input[@type='email']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.amzon.qa.pages.LoginPage.login(LoginPage.java:55)
-	at com.amazon.qa.testcases.School_BookTest.setup(School_BookTest.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="NavigationTOSocailScienceBook_Page()[pri:2, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="NavigationTOSocailScienceBook_Page" duration-ms="0" started-at="2019-10-06T17:19:52Z" depends-on-methods="com.amazon.qa.testcases.School_BookTest.verificationOfBookTitlePage" finished-at="2019-10-06T17:19:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigationTOSocailScienceBook_Page -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.School_BookTest@880ec60]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-06T17:19:52Z" finished-at="2019-10-06T17:19:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.CustomerCarePageTest@b684286]" name="setup" is-config="true" duration-ms="34020" started-at="2019-10-06T17:17:07Z" finished-at="2019-10-06T17:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifytexton_CustomercarePage()[pri:1, instance:com.amazon.qa.testcases.CustomerCarePageTest@b684286]" name="verifytexton_CustomercarePage" duration-ms="41642" started-at="2019-10-06T17:17:41Z" finished-at="2019-10-06T17:18:23Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[1]/h1"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b325ae4207489ad7b75a538b258a1aec
-*** Element info: {Using=xpath, value=/html/body/div[2]/div[1]/h1}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[1]/h1"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b325ae4207489ad7b75a538b258a1aec
-*** Element info: {Using=xpath, value=/html/body/div[2]/div[1]/h1}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy10.getText(Unknown Source)
-	at com.amzon.qa.pages.CustomercarePAge.nametext_verify(CustomercarePAge.java:30)
-	at com.amazon.qa.testcases.CustomerCarePageTest.verifytexton_CustomercarePage(CustomerCarePageTest.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifytexton_CustomercarePage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.CustomerCarePageTest@b684286]" name="teardown" is-config="true" duration-ms="831" started-at="2019-10-06T17:18:23Z" finished-at="2019-10-06T17:18:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="30697" started-at="2019-10-06T17:13:02Z" finished-at="2019-10-06T17:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyusername()[pri:1, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="verifyusername" duration-ms="167" started-at="2019-10-06T17:13:33Z" finished-at="2019-10-06T17:13:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyusername -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="701" started-at="2019-10-06T17:13:33Z" finished-at="2019-10-06T17:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="21497" started-at="2019-10-06T17:13:34Z" finished-at="2019-10-06T17:13:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Navigatetobook()[pri:3, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="Navigatetobook" duration-ms="10168" started-at="2019-10-06T17:13:55Z" depends-on-methods="com.amazon.qa.testcases.HomePageTest.verifyusername" finished-at="2019-10-06T17:14:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navigatetobook -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="715" started-at="2019-10-06T17:14:05Z" finished-at="2019-10-06T17:14:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="setup" is-config="true" duration-ms="45887" started-at="2019-10-06T17:14:06Z" finished-at="2019-10-06T17:14:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="click_on_CC()[pri:4, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="click_on_CC" duration-ms="2309" started-at="2019-10-06T17:14:52Z" depends-on-methods="com.amazon.qa.testcases.HomePageTest.verifyusername" finished-at="2019-10-06T17:14:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_on_CC -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@3b6eb2ec]" name="teardown" is-config="true" duration-ms="1159" started-at="2019-10-06T17:14:54Z" finished-at="2019-10-06T17:14:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-      <class name="com.amazon.qa.testcases.SignupPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SignupPageTest@6e8dacdf]" name="setup" is-config="true" duration-ms="8620" started-at="2019-10-06T17:14:55Z" finished-at="2019-10-06T17:15:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="fillform()[pri:1, instance:com.amazon.qa.testcases.SignupPageTest@6e8dacdf]" name="fillform" duration-ms="9146" started-at="2019-10-06T17:15:04Z" finished-at="2019-10-06T17:15:13Z">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:405)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:430)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.amzon.qa.pages.SignupPage.form(SignupPage.java:49)
-	at com.amazon.qa.testcases.SignupPageTest.fillform(SignupPageTest.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillform -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.amazon.qa.testcases.SignupPageTest@6e8dacdf]" name="Teardown" is-config="true" duration-ms="724" started-at="2019-10-06T17:15:13Z" finished-at="2019-10-06T17:15:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
+    <test name="Default test" duration-ms="59576" started-at="2019-10-10T03:05:21Z" finished-at="2019-10-10T03:06:21Z">
       <class name="com.amazon.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="setup" is-config="true" duration-ms="17975" started-at="2019-10-06T17:11:58Z" finished-at="2019-10-06T17:12:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="9175" started-at="2019-10-10T08:35:21Z" finished-at="2019-10-10T08:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="titletest" duration-ms="74" started-at="2019-10-06T17:12:16Z" finished-at="2019-10-06T17:12:16Z">
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="98" started-at="2019-10-10T08:35:30Z" finished-at="2019-10-10T08:35:30Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
-              <![CDATA[Title does not match expected:<true> but was:<false>]]>
+              <![CDATA[Title does not match expected:<false> but was:<true>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<true> but was:<false>
+              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<false> but was:<true>
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.failNotEquals(Assert.java:282)
 	at junit.framework.Assert.assertEquals(Assert.java:64)
 	at junit.framework.Assert.assertEquals(Assert.java:149)
-	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:50)
+	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -368,23 +53,355 @@ Session ID: b325ae4207489ad7b75a538b258a1aec
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titletest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="close" is-config="true" duration-ms="1410" started-at="2019-10-06T17:12:17Z" finished-at="2019-10-06T17:12:18Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="928" started-at="2019-10-10T08:35:30Z" finished-at="2019-10-10T08:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="setup" is-config="true" duration-ms="18443" started-at="2019-10-06T17:12:18Z" finished-at="2019-10-06T17:12:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="5899" started-at="2019-10-10T08:35:31Z" finished-at="2019-10-10T08:35:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginIntoPage()[pri:2, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="loginIntoPage" duration-ms="24987" started-at="2019-10-06T17:12:36Z" finished-at="2019-10-06T17:13:01Z">
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="120" started-at="2019-10-10T08:35:37Z" finished-at="2019-10-10T08:35:37Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Title does not match expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:969)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1148)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginIntoPage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@6a5fc7f7]" name="close" is-config="true" duration-ms="718" started-at="2019-10-06T17:13:01Z" finished-at="2019-10-06T17:13:02Z">
+        </test-method> <!-- titletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="744" started-at="2019-10-10T08:35:37Z" finished-at="2019-10-10T08:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="7216" started-at="2019-10-10T08:35:38Z" finished-at="2019-10-10T08:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="71" started-at="2019-10-10T08:35:45Z" finished-at="2019-10-10T08:35:45Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Title does not match expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:969)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1148)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="944" started-at="2019-10-10T08:35:45Z" finished-at="2019-10-10T08:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="11259" started-at="2019-10-10T08:35:46Z" finished-at="2019-10-10T08:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="99" started-at="2019-10-10T08:35:58Z" finished-at="2019-10-10T08:35:58Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Title does not match expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:969)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1148)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="834" started-at="2019-10-10T08:35:58Z" finished-at="2019-10-10T08:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="11335" started-at="2019-10-10T08:35:58Z" finished-at="2019-10-10T08:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="113" started-at="2019-10-10T08:36:10Z" finished-at="2019-10-10T08:36:10Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Title does not match expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Title does not match expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at com.amazon.qa.testcases.LoginPageTest.titletest(LoginPageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:969)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1148)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="801" started-at="2019-10-10T08:36:10Z" finished-at="2019-10-10T08:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-10T08:36:11Z" finished-at="2019-10-10T08:36:11Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01547C93+1473683]
+	Ordinal0 [0x014CADB1+961969]
+	Ordinal0 [0x0145418C+475532]
+	Ordinal0 [0x0144DB1A+449306]
+	Ordinal0 [0x0144E1B8+451000]
+	Ordinal0 [0x0144F2C5+455365]
+	Ordinal0 [0x0144B4C5+439493]
+	Ordinal0 [0x01454F40+479040]
+	Ordinal0 [0x014098FE+170238]
+	Ordinal0 [0x01408D1D+167197]
+	Ordinal0 [0x0140742B+160811]
+	Ordinal0 [0x013F0AE6+68326]
+	Ordinal0 [0x013F1BF0+72688]
+	Ordinal0 [0x013F1B89+72585]
+	Ordinal0 [0x014E4B77+1067895]
+	GetHandleVerifier [0x015E6875+506677]
+	GetHandleVerifier [0x015E6610+506064]
+	GetHandleVerifier [0x015ED1B8+533624]
+	GetHandleVerifier [0x015E704A+508682]
+	Ordinal0 [0x014DC266+1032806]
+	Ordinal0 [0x014DC0DF+1032415]
+	Ordinal0 [0x014E6A8B+1075851]
+	Ordinal0 [0x014E6BF3+1076211]
+	Ordinal0 [0x014E5BA5+1072037]
+	BaseThreadInitThunk [0x762E0419+25]
+	RtlGetAppContainerNamedObjectPath [0x7795662D+237]
+	RtlGetAppContainerNamedObjectPath [0x779565FD+189]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01547C93+1473683]
+	Ordinal0 [0x014CADB1+961969]
+	Ordinal0 [0x0145418C+475532]
+	Ordinal0 [0x0144DB1A+449306]
+	Ordinal0 [0x0144E1B8+451000]
+	Ordinal0 [0x0144F2C5+455365]
+	Ordinal0 [0x0144B4C5+439493]
+	Ordinal0 [0x01454F40+479040]
+	Ordinal0 [0x014098FE+170238]
+	Ordinal0 [0x01408D1D+167197]
+	Ordinal0 [0x0140742B+160811]
+	Ordinal0 [0x013F0AE6+68326]
+	Ordinal0 [0x013F1BF0+72688]
+	Ordinal0 [0x013F1B89+72585]
+	Ordinal0 [0x014E4B77+1067895]
+	GetHandleVerifier [0x015E6875+506677]
+	GetHandleVerifier [0x015E6610+506064]
+	GetHandleVerifier [0x015ED1B8+533624]
+	GetHandleVerifier [0x015E704A+508682]
+	Ordinal0 [0x014DC266+1032806]
+	Ordinal0 [0x014DC0DF+1032415]
+	Ordinal0 [0x014E6A8B+1075851]
+	Ordinal0 [0x014E6BF3+1076211]
+	Ordinal0 [0x014E5BA5+1072037]
+	BaseThreadInitThunk [0x762E0419+25]
+	RtlGetAppContainerNamedObjectPath [0x7795662D+237]
+	RtlGetAppContainerNamedObjectPath [0x779565FD+189]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:127)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:129)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:210)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:73)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.amzon.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.amazon.qa.testcases.LoginPageTest.setup(LoginPageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:969)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1148)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="titletest" duration-ms="1" started-at="2019-10-10T08:36:21Z" finished-at="2019-10-10T08:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@1cd072a9]" name="close" is-config="true" duration-ms="0" started-at="2019-10-10T08:36:21Z" finished-at="2019-10-10T08:36:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- AmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

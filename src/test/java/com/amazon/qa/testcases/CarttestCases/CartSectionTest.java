@@ -1,6 +1,7 @@
 package com.amazon.qa.testcases.CarttestCases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -61,6 +62,13 @@ public class CartSectionTest extends TestBase {
 				boolean value = Message.contains("Added");
 				Assert.assertEquals(value, true, "Error occur: item not added to the cart");
 				System.out.println("Item has been successfully added to the cart");
+			}
+			
+			
+			@AfterMethod
+			public void teardown()
+			{
+				driver.quit();
 			}
 			
 }

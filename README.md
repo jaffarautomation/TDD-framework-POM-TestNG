@@ -6,6 +6,13 @@ created in test package.
 Classes created in "Page" package basically consist of "Page factory" and "Action Methods".
 Classes created in "Test" package calls the method created in from Page classes, which is loaded with TestNG annotation.
 
+Flow of process: Project is build upon "Maven", Using Selenium with JAVA binding, and Wrap with TDD framework using POM design pattern   				 				withTESTNG annotation.Extends report is used to generate the Reports. GIT is used for Source code management and integrated     				with JENKINS for triggering CI. 
+
+
+Dependency Used : Selenium, TestNG, Extends report, Junit.
+
+Used Of TESTNG : a) Implemented ITestListener interface to capture the screenshot if any test method in class failed.
+                 b) Implemented 
 
 
 Introduction 
@@ -20,7 +27,7 @@ Base package: It cosist of TestBase class which is acting as a super class for e
               
 Config package: It consist of Config file which is used to define the Enviroment variable.
 
-utils package : It is acting as a library. All resuable codes are define in this package. For Ex: JavaScriptMethod class conist of basic                   java script method such as scroll which can be used throughout the framework.
+utils package : It is acting as a library. All resuable codes are define in this package. For Ex: JavaScriptMethod class conist of basic                   				java script method such as scroll which can be used throughout the framework.
                 Also WebDriver event listner is define.
                 
 ExtendedReport package: It consist of file for extended driver functionality

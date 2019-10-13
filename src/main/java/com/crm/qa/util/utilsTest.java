@@ -70,6 +70,8 @@ public class utilsTest extends TestBase{
 		}
 	}}
 	
+	
+	//This method will switchto the initial or parent window
 	public static void DefaultWindow()
 	{
 		

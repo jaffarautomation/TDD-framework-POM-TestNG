@@ -1,12 +1,17 @@
 package com.amzon.qa.base;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.crm.qa.util.WebEventListener;
@@ -46,6 +51,8 @@ public class TestBase {
 	
 	
 
+	
+
 	e_driver = new EventFiringWebDriver(driver);
 	try {
 		e_eventdriver = new WebEventListener();
@@ -73,7 +80,23 @@ public class TestBase {
 	
 	
 	}
-	
+
+// We have created a screenshot method which will take screenshot for only failed testcases.
+//In other word we are only calling this method under failed method of custom lister testng class which is implements the ItestListners interface	
+	public static void failed(String MethodName) throws IOException {
+		
+		//type casting file
+		   TakesScreenshot  ss = (TakesScreenshot)driver;
+		   
+		   //In below code Screenshot  is in form of file and storing in o reference
+	   	File o = ss.getScreenshotAs(OutputType.FILE);
+		
+
+	    //in below code we are copying that o reference to your desired location.
+	   FileHandler.copy(o, new File("C:\\Users\\ADMIN\\eclipse-workspace1\\Amzontest\\FailedTestCases\\" +MethodName+ "_" + ".png"));
+	}
+
+
 	
 	
 

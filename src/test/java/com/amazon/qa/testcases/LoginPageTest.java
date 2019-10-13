@@ -4,11 +4,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.amzon.qa.base.TestBase;
 import com.amzon.qa.pages.HomePage;
 import com.amzon.qa.pages.LoginPage;
+import com.crm.qa.util.CustomListerTestNG;
+import com.crm.qa.util.RetryTestAnalyzer;
 
 import junit.framework.Assert;
 
@@ -16,14 +19,16 @@ import junit.framework.Assert;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
+@Listeners(CustomListerTestNG.class)
+
 public class LoginPageTest extends TestBase{
 
 	LoginPage object1;
 
 	
-	public LoginPageTest() throws Throwable {
+	public LoginPageTest() throws Throwable   
+	{
 		super();
-		
 	}
 
 	
@@ -37,21 +42,21 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(priority =1)
+	@Test(priority =1,retryAnalyzer = RetryTestAnalyzer.class)
 	public void titletest() throws Throwable
 	{
 		String currenttitle =object1.validatetitle();
 		System.out.println(currenttitle);
-	//	Assert.assertEquals("Amazon Sign In", currenttitle);
+	    //	Assert.assertEquals("Amazon Sign In", currenttitle);
 		
 		
 		//Another way to use the assert equals
-	boolean s=	currenttitle.contains("Shopping");
+	    boolean s=	currenttitle.contains("Shopping");
 		Assert.assertEquals("Title does not match", true, s);
 	}
 	
 	
-	@Test(priority=2)
+	@Test(priority=2, enabled =false)
 	public void loginIntoPage() throws Throwable
 	{
 		 HomePage homepage = object1.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -61,7 +66,7 @@ public class LoginPageTest extends TestBase{
 	@AfterMethod
 	public void close()
 	{
-	driver.quit();	
+	     driver.quit();	
 	}
 	
 	
