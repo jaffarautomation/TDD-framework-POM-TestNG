@@ -11,8 +11,8 @@
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="close"/>
-          <include name="titletest"/>
           <include name="setup"/>
+          <include name="loginIntoPage"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
     </classes>

@@ -4,6 +4,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -13,8 +14,11 @@ import com.amzon.qa.pages.LoginPage;
 import com.crm.qa.util.CustomListerTestNG;
 import com.crm.qa.util.RetryTestAnalyzer;
 
+import DataProvider.LoginDataUtility;
 import junit.framework.Assert;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
@@ -42,7 +46,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
-	@Test(priority =1,retryAnalyzer = RetryTestAnalyzer.class)
+	@Test(priority =1)
 	public void titletest() throws Throwable
 	{
 		String currenttitle =object1.validatetitle();
@@ -55,11 +59,19 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals("Title does not match", true, s);
 	}
 	
-	
-	@Test(priority=2, enabled =false)
-	public void loginIntoPage() throws Throwable
+	//Data provider is created to pass value on Loginintopage method
+	@DataProvider
+	public Iterator<Object[]> GetData()
 	{
-		 HomePage homepage = object1.login(prop.getProperty("username"), prop.getProperty("password"));
+		ArrayList<Object []> m =LoginDataUtility.getdatafromexcel();
+	  return m.iterator();
+	}
+	
+	//In below code we are passing the Username and Password from excel with the help of dataprovider 
+	@Test(priority=2, enabled =true, dataProvider ="GetData")
+	public void loginIntoPage(String userN, String Pass) throws Throwable
+	{
+		 HomePage homepage = object1.login(userN, Pass);
 	}
 	
 	
