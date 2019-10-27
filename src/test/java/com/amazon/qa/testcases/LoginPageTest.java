@@ -67,13 +67,22 @@ public class LoginPageTest extends TestBase{
 	  return m.iterator();
 	}
 	
+	
+	//We can also pass values by creating parameter in TestNg.xml file
+	//We can provide username and password from config file 
 	//In below code we are passing the Username and Password from excel with the help of dataprovider 
-	@Test(priority=2, enabled =true, dataProvider ="GetData")
+/*	@Test(priority=2, enabled =true, dataProvider ="GetData")
 	public void loginIntoPage(String userN, String Pass) throws Throwable
 	{
 		 HomePage homepage = object1.login(userN, Pass);
-	}
+	}*/
 	
+	
+	@Test(priority=2, enabled =true)
+	public void loginIntoPage() throws Throwable
+	{
+		 HomePage homepage = object1.login(prop.getProperty("username"),prop.getProperty("password"));
+	}
 	
 	@AfterMethod
 	public void close()

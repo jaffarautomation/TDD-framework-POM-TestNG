@@ -1,40 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtendreportListerner.ExtentReporterNG"/>
-  </listeners>
-  <test name="Test">
-    <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest"/>
-      <class name="com.amazon.qa.testcases.HomePageTest"/>
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest"/>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Test(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="close"/>
-          <include name="titletest"/>
           <include name="setup"/>
           <include name="loginIntoPage"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
-        <methods>
-          <include name="verifytexton_CustomercarePage"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="click_on_CC"/>
-          <include name="setup"/>
-          <include name="verifyusername"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

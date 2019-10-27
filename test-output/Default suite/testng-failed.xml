@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest"/>
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
         <methods>
-          <include name="close"/>
           <include name="setup"/>
-          <include name="loginIntoPage"/>
+          <include name="teardown"/>
+          <include name="CartVerification"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

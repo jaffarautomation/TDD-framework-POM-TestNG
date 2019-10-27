@@ -1,70 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9715" started-at="2019-10-21T09:07:59Z" finished-at="2019-10-21T09:08:09Z">
+  <suite name="Suite" duration-ms="70666" started-at="2019-10-27T10:34:23Z" finished-at="2019-10-27T10:35:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9715" started-at="2019-10-21T09:07:59Z" finished-at="2019-10-21T09:08:09Z">
+    <test name="Test" duration-ms="70666" started-at="2019-10-27T10:34:23Z" finished-at="2019-10-27T10:35:33Z">
       <class name="com.amazon.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@511baa65]" name="setup" is-config="true" duration-ms="8666" started-at="2019-10-21T14:37:59Z" finished-at="2019-10-21T14:38:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="setup" is-config="true" duration-ms="13013" started-at="2019-10-27T10:34:23Z" finished-at="2019-10-27T10:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@511baa65]" name="titletest" duration-ms="228" started-at="2019-10-21T14:38:08Z" finished-at="2019-10-21T14:38:08Z">
+        <test-method status="PASS" signature="titletest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="titletest" duration-ms="46" started-at="2019-10-27T10:34:36Z" finished-at="2019-10-27T10:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titletest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@511baa65]" name="close" is-config="true" duration-ms="744" started-at="2019-10-21T14:38:08Z" finished-at="2019-10-21T14:38:09Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="close" is-config="true" duration-ms="829" started-at="2019-10-27T10:34:36Z" finished-at="2019-10-27T10:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="SKIP" signature="loginIntoPage(java.lang.String, java.lang.String)[pri:2, instance:com.amazon.qa.testcases.LoginPageTest@511baa65]" name="loginIntoPage" duration-ms="0" started-at="2019-10-21T14:38:09Z" data-provider="GetData" finished-at="2019-10-21T14:38:09Z">
-          <exception class="java.lang.RuntimeException">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="setup" is-config="true" duration-ms="10407" started-at="2019-10-27T10:34:37Z" finished-at="2019-10-27T10:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginIntoPage()[pri:2, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="loginIntoPage" duration-ms="44828" started-at="2019-10-27T10:34:47Z" finished-at="2019-10-27T10:35:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[java.lang.NullPointerException]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f1ef9911a1063811cc12c1c03a26bc
+*** Element info: {Using=xpath, value=//input[@type='email']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:163)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:991)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1081)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-Caused by: java.lang.NullPointerException
-	at DataProvider.Xls_Reader.getRowCount(Xls_Reader.java:50)
-	at DataProvider.LoginDataUtility.getdatafromexcel(LoginDataUtility.java:22)
-	at com.amazon.qa.testcases.LoginPageTest.GetData(LoginPageTest.java:66)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:155)
-	... 20 more
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='email']"}
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-CRT2G8C', ip: '192.168.0.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0f1ef9911a1063811cc12c1c03a26bc
+*** Element info: {Using=xpath, value=//input[@type='email']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+at com.amzon.qa.pages.LoginPage.login(LoginPage.java:55)
+at com.amazon.qa.testcases.LoginPageTest.loginIntoPage(LoginPageTest.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.amazon.qa.testcases.TestNg_Runner.main(TestNg_Runner.java:25)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginIntoPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@21a06946]" name="close" is-config="true" duration-ms="737" started-at="2019-10-27T10:35:33Z" finished-at="2019-10-27T10:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

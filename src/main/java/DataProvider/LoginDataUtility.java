@@ -2,6 +2,8 @@ package DataProvider;
 
 import java.util.ArrayList;
 
+import org.apache.poi.ss.usermodel.DataFormatter;
+
 
 //This Class is acting as a utlity class which fetch the login data from the Excel sheet
 public class LoginDataUtility {
@@ -25,7 +27,7 @@ public class LoginDataUtility {
 		           for (int i =2; i<=size;i++)
 		           {
 		        	   String Username =	r.getCellData("Data","UserName", i);
-		     	      System.out.println(Username);
+		        	    System.out.println(Username);
 		     	     
 
 		     	      String password =	r.getCellData("Data","Password", i);
