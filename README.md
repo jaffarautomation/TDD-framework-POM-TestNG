@@ -37,5 +37,12 @@ Page pacakge : It consist of classes which are build for each pages in functiona
 
 b) Test java Folder contains one package as named Testcases. It consist of classes with same names which were created in pages package with Test keyword.
 
+In test java folder, we have created the testng runner file which can be used to create the project jar file.
+
+
+In this project 2 main XML file is created 
+1) Simple XML file : i.e testng.XML which contain all the classes
+2) Regression XML file, which will run all the critical functionality method
+
 
                      

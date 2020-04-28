@@ -21,7 +21,7 @@ public class SignupPageTest extends TestBase {
 	SignupPage SignupPageReference;
 	LoginPage LoginPageReference;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Regression"})
 	public void setup() throws Throwable
 	{
 		initialization();
@@ -49,7 +49,7 @@ public class SignupPageTest extends TestBase {
 	
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Regression"})
 	public void Teardown()
 	{
 		

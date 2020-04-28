@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 08 11:43:13 IST 2019</td>
+<td>Started on:</td><td>Tue Mar 10 13:41:58 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49658 ms)</td>
+<tr><td>Total time:</td><td>56 seconds (56166 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.amazon.qa.testcases.SocialStudiesBookTest.setup()'><b>setup</b><br>Test class: com.amazon.qa.testcases.SocialStudiesBookTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;email&apos;]&quot;}
-  (Session info: chrome=77.0.3865.90)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;nav-hamburger-menu&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;DESKTOP-CRT2G8C&apos;, ip: &apos;192.168.0.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 663dd687ca473077f8ece402e0af514c
-*** Element info: {Using=xpath, value=//input[@type=&apos;email&apos;]}
+System info: host: &apos;DESKTOP-CRT2G8C&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2199f79-e9cf-4bce-b649-03f6872492a4
+*** Element info: {Using=xpath, value=//a[@id=&apos;nav-hamburger-menu&apos;]}
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -96,23 +95,22 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.amzon.qa.pages.LoginPage.login(LoginPage.java:55)
-	at com.amazon.qa.testcases.SocialStudiesBookTest.setup(SocialStudiesBookTest.java:38)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1533330615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1533330615'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;email&apos;]&quot;}
-  (Session info: chrome=77.0.3865.90)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.amzon.qa.pages.HomePage.NavigateToBook(HomePage.java:99)
+	at com.amazon.qa.testcases.SocialStudiesBookTest.setup(SocialStudiesBookTest.java:39)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1402531280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1402531280'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;nav-hamburger-menu&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
-System info: host: &apos;DESKTOP-CRT2G8C&apos;, ip: &apos;192.168.0.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 663dd687ca473077f8ece402e0af514c
-*** Element info: {Using=xpath, value=//input[@type=&apos;email&apos;]}
+System info: host: &apos;DESKTOP-CRT2G8C&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 15568, moz:profile: C:\Users\ADMIN\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2199f79-e9cf-4bce-b649-03f6872492a4
+*** Element info: {Using=xpath, value=//a[@id=&apos;nav-hamburger-menu&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -127,18 +125,17 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
-	at com.amzon.qa.pages.LoginPage.login(LoginPage.java:55)
-	at com.amazon.qa.testcases.SocialStudiesBookTest.setup(SocialStudiesBookTest.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.amzon.qa.pages.HomePage.NavigateToBook(HomePage.java:99)
+	at com.amazon.qa.testcases.SocialStudiesBookTest.setup(SocialStudiesBookTest.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -167,7 +164,20 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 </pre></div></td>
 <td>0</td>
-<td>com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48</td></tr>
+<td>com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.amazon.qa.testcases.SocialStudiesBookTest.teardown()'><b>teardown</b><br>Test class: com.amazon.qa.testcases.SocialStudiesBookTest</td>
+<td></td>
+<td>0</td>
+<td>com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -178,9 +188,9 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 </tr>
 <tr>
 <td title='com.amazon.qa.testcases.SocialStudiesBookTest.ClickOnTheFirstSocailBook()'><b>ClickOnTheFirstSocailBook</b><br>Test class: com.amazon.qa.testcases.SocialStudiesBookTest</td>
-<td><div><pre>java.lang.Throwable: Method SocialStudiesBookTest.ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48] depends on not successfully finished methods
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace767511741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace767511741'><pre>java.lang.Throwable: Method SocialStudiesBookTest.ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method SocialStudiesBookTest.ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1037475674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1037475674'><pre>java.lang.Throwable: Method SocialStudiesBookTest.ClickOnTheFirstSocailBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
@@ -203,9 +213,9 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 <td>null</td></tr>
 <tr>
 <td title='com.amazon.qa.testcases.SocialStudiesBookTest.NameofBook()'><b>NameofBook</b><br>Test class: com.amazon.qa.testcases.SocialStudiesBookTest</td>
-<td><div><pre>java.lang.Throwable: Method SocialStudiesBookTest.NameofBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48] depends on not successfully finished methods
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace103787801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace103787801'><pre>java.lang.Throwable: Method SocialStudiesBookTest.NameofBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48] depends on not successfully finished methods
+<td><div><pre>java.lang.Throwable: Method SocialStudiesBookTest.NameofBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1807894765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1807894765'><pre>java.lang.Throwable: Method SocialStudiesBookTest.NameofBook()[pri:2, instance:com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f] depends on not successfully finished methods
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
@@ -230,7 +240,7 @@ Session ID: 663dd687ca473077f8ece402e0af514c
 <td title='com.amazon.qa.testcases.SocialStudiesBookTest.verificationOfSocialBookTitlePage()'><b>verificationOfSocialBookTitlePage</b><br>Test class: com.amazon.qa.testcases.SocialStudiesBookTest</td>
 <td></td>
 <td>0</td>
-<td>com.amazon.qa.testcases.SocialStudiesBookTest@26ba2a48</td></tr>
+<td>com.amazon.qa.testcases.SocialStudiesBookTest@6be46e8f</td></tr>
 </table><p>
 </body>
 </html>

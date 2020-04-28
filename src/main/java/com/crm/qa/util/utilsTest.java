@@ -1,6 +1,7 @@
 package com.crm.qa.util;
 
 import java.io.File;
+import java.util.Date;
 import java.util.Set;
 
 import org.openqa.selenium.OutputType;
@@ -43,6 +44,13 @@ public class utilsTest extends TestBase{
 	}
 
 	
+	 public static Date CurrentDatewithTIme() 
+	    { 
+	        Date d1 = new Date(); 
+	        System.out.println("Current date is " + d1); 
+	      return d1;
+	    } 
+	
 	
 	//This method will return the parent window ID
 	public static void ParentWindow()
@@ -74,7 +82,7 @@ public class utilsTest extends TestBase{
 	//This method will switchto the initial or parent window
 	public static void DefaultWindow()
 	{
-		
+	
 		driver.switchTo().window(ParentWindow);
 		System.out.println("Switch to parent window again successfully");
 	}

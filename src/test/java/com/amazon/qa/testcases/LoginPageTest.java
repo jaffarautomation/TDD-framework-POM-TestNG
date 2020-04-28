@@ -8,10 +8,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.amazon.qa.helper.logger.LoggerHelper;
 import com.amzon.qa.base.TestBase;
 import com.amzon.qa.pages.HomePage;
 import com.amzon.qa.pages.LoginPage;
-import com.crm.qa.util.CustomListerTestNG;
+import com.qa.ExtendreportListerner.TestListener;
 import com.crm.qa.util.RetryTestAnalyzer;
 
 import DataProvider.LoginDataUtility;
@@ -23,11 +24,12 @@ import java.util.Iterator;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
-@Listeners(CustomListerTestNG.class)
+@Listeners(com.qa.ExtendreportListerner.TestListener.class)
 
 public class LoginPageTest extends TestBase{
 
-	LoginPage object1;
+	static Logger log = LoggerHelper.getlogger(LoginPageTest.class);
+	LoginPage LoginPage;
 
 	
 	public LoginPageTest() throws Throwable   
@@ -36,23 +38,24 @@ public class LoginPageTest extends TestBase{
 	}
 
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Regression"})
 	public void setup() throws Throwable
 	{
-		TestBase.initialization();
-		 object1 = new LoginPage();
+		 TestBase.initialization();
+		 LoginPage = new LoginPage();
 		
 		 
 	}
 	
 	
-	@Test(priority =1)
-	public void titletest() throws Throwable
+	@Test(priority =1  )
+	public void ToVerifyThePageTitle() throws Throwable
 	{
-		String currenttitle =object1.validatetitle();
+		
+		String currenttitle =LoginPage.validatetitle();
 		System.out.println(currenttitle);
 	    //	Assert.assertEquals("Amazon Sign In", currenttitle);
-		
+	
 		
 		//Another way to use the assert equals
 	    boolean s=	currenttitle.contains("Shopping");
@@ -78,13 +81,14 @@ public class LoginPageTest extends TestBase{
 	}*/
 	
 	
-	@Test(priority=2, enabled =true)
-	public void loginIntoPage() throws Throwable
+	@Test(priority=2, enabled =true, groups = {"Regression"})
+	public void ToverifyLoginFunctionality() throws Throwable
 	{
-		 HomePage homepage = object1.login(prop.getProperty("username"),prop.getProperty("password"));
+		
+		 LoginPage.login(Config.getUserName(),Config.getPassword());
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Regression"})
 	public void close()
 	{
 	     driver.quit();	

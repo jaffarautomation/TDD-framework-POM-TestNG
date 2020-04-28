@@ -1,4 +1,4 @@
-package com.qa.ExtendreportListerner;
+/*package com.qa.ExtendreportListerner;
 
 
 
@@ -76,4 +76,4 @@ public class ExtentReporterNG implements IReporter {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
-}
+}*/

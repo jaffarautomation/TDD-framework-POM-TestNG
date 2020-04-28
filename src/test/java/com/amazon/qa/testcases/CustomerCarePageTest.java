@@ -21,15 +21,16 @@ public class CustomerCarePageTest extends TestBase {
 	CustomercarePAge CustomerCarreference;
 	HomePage HomePageReference;
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Regression"})
 	public void setup() throws Throwable
 	{
 		
 		initialization();
-		CustomerCarreference = new CustomercarePAge();
-	 LoginPageReference = new LoginPage();
-	HomePageReference= LoginPageReference.login(prop.getProperty("username"), prop.getProperty("password")); 
-	HomePageReference.Clickoncustomerservice();
+		 CustomerCarreference = new CustomercarePAge();
+	     LoginPageReference = new LoginPage();
+	     HomePageReference= LoginPageReference.login(prop.getProperty("username"), prop.getProperty("password")); 
+	     HomePageReference.Clickoncustomerservice();
+	
 	}
 	
 	@Test(priority =1)
@@ -38,12 +39,13 @@ public class CustomerCarePageTest extends TestBase {
 	{
 	    String actualname= 	CustomerCarreference.nametext_verify();
 		Assert.assertEquals(actualname, "Hi, Deepika. What can we help you with?", "Incorrect message is display, method failed");
-		}
+		
+	}
 	
 	
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Regression"})
 	public void teardown()
 	{
 		

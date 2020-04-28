@@ -1,0 +1,141 @@
+2020-04-24 10:04:634 INFO  TestBase:42 - Browser Initialization is started
+2020-04-24 10:04:207 INFO  TestBase:42 - Browser Initialization is started
+2020-04-24 11:04:943 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 11:04:924 INFO  WaitHelper:36 - Implicit wait set to :30
+2020-04-24 11:04:610 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 11:04:221 INFO  WaitHelper:36 - Implicit wait set to :30
+2020-04-24 11:04:773 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 11:04:07 INFO  WaitHelper:36 - Implicit wait set to :30
+2020-04-24 12:04:529 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:505 INFO  WaitHelper:40 - Implicit wait set to :30
+2020-04-24 12:04:515 INFO  WaitHelper:48 - Waiting for page to load : 30SECONDSSecond
+2020-04-24 12:04:439 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:966 INFO  WaitHelper:40 - Implicit wait set to :30
+2020-04-24 12:04:972 INFO  WaitHelper:48 - Waiting for page to load : 30SECONDSSecond
+2020-04-24 12:04:338 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:684 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:627 INFO  WaitHelper:38 - Implicit wait set to :30
+2020-04-24 12:04:628 INFO  WaitHelper:44 - No Driver Object found 
+2020-04-24 12:04:628 INFO  WaitHelper:53 - Waiting for page to load : 30SECONDS
+2020-04-24 12:04:765 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:339 INFO  WaitHelper:38 - Implicit wait set to :30
+2020-04-24 12:04:340 INFO  WaitHelper:45 - No Driver Object found 
+2020-04-24 12:04:341 INFO  WaitHelper:55 - Waiting for page to load : 30SECONDS
+2020-04-24 12:04:587 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:470 INFO  WaitHelper:38 - Implicit wait set to :30
+2020-04-24 12:04:471 INFO  WaitHelper:45 - No Driver Object found 
+2020-04-24 12:04:471 INFO  WaitHelper:55 - Waiting for page to load : 30SECONDS
+2020-04-24 12:04:783 INFO  TestBase:43 - Browser Initialization is started
+2020-04-24 12:04:173 INFO  WaitHelper:38 - Implicit wait set to :30
+2020-04-24 12:04:173 INFO  WaitHelper:43 - No Driver Object found 
+2020-04-24 12:04:174 INFO  WaitHelper:53 - Waiting for page to load : 30SECONDS
+2020-04-24 14:04:274 INFO  TestBase:47 - Browser Initialization is started
+2020-04-24 14:04:817 INFO  WaitHelper:36 - Implicit wait set to :30
+2020-04-24 14:04:863 INFO  WaitHelper:58 - Waiting for page to load : 30SECONDS
+2020-04-24 14:04:213 INFO  TestBase:47 - Browser Initialization is started
+2020-04-24 14:04:698 INFO  WaitHelper:36 - Implicit wait set to :30
+2020-04-24 14:04:704 INFO  WaitHelper:58 - Waiting for page to load : 30SECONDS
+2020-04-24 15:04:01 INFO  TestBase:54 - Browser Initialization is started
+2020-04-24 15:04:595 INFO  WaitHelper:36 - Implicit wait set to :120
+2020-04-24 15:04:607 INFO  WaitHelper:58 - Waiting for page to load : 100SECONDS
+2020-04-24 15:04:704 INFO  TestBase:54 - Browser Initialization is started
+2020-04-24 15:04:869 INFO  WaitHelper:36 - Implicit wait set to :120
+2020-04-24 15:04:884 INFO  WaitHelper:58 - Waiting for page to load : 100SECONDS
+2020-04-24 15:04:123 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 15:04:794 INFO  WaitHelper:36 - Implicit wait set to :120
+2020-04-24 15:04:883 INFO  WaitHelper:58 - Waiting for page to load : 100SECONDS
+2020-04-24 15:04:273 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 15:04:992 INFO  WaitHelper:36 - Implicit wait set to :120
+2020-04-24 15:04:999 INFO  WaitHelper:58 - Waiting for page to load : 100SECONDS
+2020-04-24 15:04:190 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 15:04:197 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 15:04:633 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 15:04:649 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 15:04:658 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 15:04:752 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 15:04:156 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 15:04:157 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 15:04:448 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 15:04:454 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 15:04:460 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 15:04:900 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 16:04:439 INFO  TestBase:28 - *** Started Running Class : To Check login Class Functionality
+2020-04-24 16:04:660 INFO  TestBase:28 - *** Started Running Class : To Check login Class Functionality
+2020-04-24 16:04:683 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 16:04:687 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 16:04:621 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 16:04:631 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 16:04:668 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 16:04:571 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 16:04:633 INFO  TestBase:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-04-24 16:04:642 INFO  TestBase:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-04-24 16:04:655 INFO  TestBase:54 - Sta
+2020-04-24 16:04:665 INFO  TestBase:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-04-24 16:04:667 INFO  TestBase:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-04-24 16:04:382 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 16:04:383 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 16:04:911 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 16:04:920 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 16:04:926 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 16:04:501 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 16:04:503 INFO  TestBase:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-04-24 16:04:504 INFO  TestBase:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-04-24 16:04:981 INFO  TestBase:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-04-24 16:04:984 INFO  TestBase:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-04-24 16:04:80 INFO  TestBase:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-04-24 16:04:547 INFO  TestBase:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-04-24 17:04:222 INFO  TestBase:28 - *** Started Running Class : Default test
+2020-04-24 17:04:502 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:505 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:451 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:507 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:516 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:462 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 17:04:515 INFO  TestBase:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-04-24 17:04:525 INFO  TestBase:54 - Sta
+2020-04-24 17:04:535 INFO  TestBase:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-04-24 17:04:670 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:671 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:693 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:699 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:706 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:456 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 17:04:459 INFO  TestBase:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-04-24 17:04:232 INFO  TestBase:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-04-24 17:04:821 INFO  TestBase:36 - *** Test Class got Ended : Default test
+2020-04-24 17:04:104 INFO  TestListener:28 - *** Started Running Class : Default test
+2020-04-24 17:04:342 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:345 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:599 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:609 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:615 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:986 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 17:04:42 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-04-24 17:04:63 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-04-24 17:04:203 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:204 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:268 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:277 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:282 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:987 INFO  TestBase:88 - Browser Initialization ended
+2020-04-24 17:04:989 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-04-24 17:04:440 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-04-24 17:04:309 INFO  TestListener:36 - *** Test Class got Ended : Default test
+2020-04-24 17:04:676 INFO  TestListener:28 - *** Started Running Class : Default test
+2020-04-24 17:04:23 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:27 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:423 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:434 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:442 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:371 INFO  TestBase:90 - Browser Initialization ended
+2020-04-24 17:04:409 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-04-24 17:04:429 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-04-24 17:04:420 INFO  TestBase:49 - Browser Initialization is started
+2020-04-24 17:04:420 INFO  TestBase:43 - returned browser type is :firefox
+2020-04-24 17:04:721 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-04-24 17:04:728 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-04-24 17:04:736 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-04-24 17:04:30 INFO  TestBase:90 - Browser Initialization ended
+2020-04-24 17:04:31 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-04-24 17:04:686 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-04-24 17:04:816 INFO  TestListener:36 - *** Test Class got Ended : Default test

@@ -1,4 +1,4 @@
-package com.amazon.qa.testcases;
+	package com.amazon.qa.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -32,7 +32,7 @@ public class MoreInformationOnbookTest extends TestBase {
 			
 			
 			
-			@BeforeMethod
+			@BeforeMethod(groups = {"Regression"})
 			public void setup() throws Throwable
 			{ 
 				

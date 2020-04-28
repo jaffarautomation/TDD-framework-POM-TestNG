@@ -19,7 +19,7 @@ public class TestNg_Runner {
 		
 		 //Below method flow is created to add the testng xml file in list of string and called the setTestsuites method to pass the variable of list.
 		    List<String> suites = Lists.newArrayList();
-		    suites.add("C:\\Users\\ADMIN\\eclipse-workspace1\\Amzontest\\src\\test\\java\\com\\amazon\\qa\\testcases\\testng.xml");
+		    suites.add("C:\\Users\\ADMIN\\eclipse-workspace1\\Amzontest\\testng.xml");
 		  //  suites.add("C:\\Users\\ADMIN\\eclipse-workspace1\\Amzontest\\testnglogin.xml");
 		    testng.setTestSuites(suites);
 		    testng.run();

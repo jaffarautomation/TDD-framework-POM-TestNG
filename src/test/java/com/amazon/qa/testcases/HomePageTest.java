@@ -28,7 +28,7 @@ public class HomePageTest extends TestBase {
 	}
 	
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Regression"})
 	public void setup() throws Throwable
 	{ 
 		
@@ -41,7 +41,7 @@ public class HomePageTest extends TestBase {
 	
 	
 	//This method verify the Username
-	@Test (priority =1)
+	@Test (priority =1,groups = {"Regression"})
 	public void verifyusername()
 	{
 		
@@ -71,7 +71,7 @@ public class HomePageTest extends TestBase {
 	//In NavigateToBook method we can pass the type of books options.
 	//For ex: i have passed School textbook type in books category.
 	
-	@Test(priority =3, dependsOnMethods= {"verifyusername"})
+	@Test(priority =3, dependsOnMethods= {"verifyusername"}, groups = {"Regression"})
 	public void Navigatetobook() throws Throwable
 	
 	{
@@ -93,7 +93,7 @@ public class HomePageTest extends TestBase {
 	}*/
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Regression"})
 	public void teardown()
 	{
 		driver.quit();

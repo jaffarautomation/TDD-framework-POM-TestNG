@@ -33,7 +33,7 @@ public class CartSectionTest extends TestBase {
 			CartSectionPage cartsectionpage;
 			
 			
-			@BeforeMethod
+			@BeforeMethod(groups = {"Regression"})
 			public void setup() throws Throwable
 			{ 
 				
@@ -54,7 +54,7 @@ public class CartSectionTest extends TestBase {
 			
 			
 			//This method verify that book has or has not been added to cart.
-			@Test(priority=1, enabled= true, alwaysRun = true)
+			@Test(priority=1, enabled= true, alwaysRun = true, groups = {"Regression"})
 			public void CartVerification()
 			{  
 				String Message =cartsectionpage.ToverifyproductAdded();
@@ -65,7 +65,7 @@ public class CartSectionTest extends TestBase {
 			}
 			
 			
-			@AfterMethod
+			@AfterMethod(groups = {"Regression"})
 			public void teardown()
 			{
 				driver.quit();

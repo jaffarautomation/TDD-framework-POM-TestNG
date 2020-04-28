@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="false">
+  
+  
+  
+    <listeners>
+		<listener class-name="com.qa.ExtendreportListerner.ExtentReporterNG" />
+		<listener class-name="com.crm.qa.util.CustomListerTestNG" />
+	</listeners>
+	
+
+  
+  <test name="Login test">
+  
+  <groups>
+  <run>
+  <include name ="Regression"></include>
+  </run>
+  </groups>
+  
+  
+    <classes>
+      <class name="com.amazon.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Home Test">
+   
+   <groups>
+  <run>
+  <include name ="Regression"></include>
+  </run>
+  </groups>
+  
+  
+    <classes>
+    <class name="com.amazon.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Home Test">
+   
+   <groups>
+  <run>
+  <include name ="Regression"></include>
+  </run>
+  </groups>
+  
+  
+    <classes>
+    <class name="com.amazon.qa.testcases.SocailStudiesBookTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Home Test">
+   
+   <groups>
+  <run>
+  <include name ="Regression"></include>
+  </run>
+  </groups>
+  
+  
+    <classes>
+    <class name="com.amazon.qa.testcases.CartSectionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- RegressionSuite -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <listeners>
+    <listener class-name="com.qa.ExtendreportListerner.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.util.CustomListerTestNG"/>
+  </listeners>
+  <test name="Login test">
+    <classes>
+      <class name="com.amazon.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Login test -->
+  <test name="Home Test">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Home Test -->
+  <test name="Login test(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="titletest"/>
+          <include name="setup"/>
+          <include name="loginIntoPage"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Login test(failed) -->
+  <test name="Home Test(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="Navigatetobook"/>
+          <include name="click_on_CC"/>
+          <include name="setup"/>
+          <include name="verifyusername"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Home Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

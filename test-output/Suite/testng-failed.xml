@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtendreportListerner.TestListener"/>
+  </listeners>
+  <test name="To Check login Class Functionality">
     <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="close"/>
-          <include name="setup"/>
-          <include name="loginIntoPage"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest"/>
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- To Check login Class Functionality -->
 </suite> <!-- Failed suite [Suite] -->

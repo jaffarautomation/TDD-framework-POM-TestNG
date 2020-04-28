@@ -45,106 +45,38 @@
       <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest"/>
     </classes>
   </test> <!-- CartSectionTest -->
-  <test name="LoginPageTest(failed)">
-    <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="close"/>
-          <include name="setup"/>
-          <include name="loginIntoPage"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-      <class name="com.amazon.qa.testcases.School_BookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
-      <class name="com.amazon.qa.testcases.SignupPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- LoginPageTest(failed) -->
   <test name="Homepagetest(failed)">
     <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="close"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-      <class name="com.amazon.qa.testcases.School_BookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
-      <class name="com.amazon.qa.testcases.SignupPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
       <class name="com.amazon.qa.testcases.HomePageTest">
         <methods>
+          <include name="teardown"/>
           <include name="Navigatetobook"/>
           <include name="click_on_CC"/>
           <include name="setup"/>
           <include name="verifyusername"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- Homepagetest(failed) -->
-  <test name="SignupPage(failed)">
-    <classes>
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
+      <class name="com.amazon.qa.testcases.SignupPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
+      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="close"/>
@@ -156,22 +88,26 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.CustomerCarePageTest">
         <methods>
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
+    </classes>
+  </test> <!-- Homepagetest(failed) -->
+  <test name="SignupPage(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
       <class name="com.amazon.qa.testcases.SignupPageTest">
         <methods>
           <include name="setup"/>
@@ -184,15 +120,11 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- SignupPage(failed) -->
-  <test name="CustomercarePageTest(failed)">
-    <classes>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="close"/>
@@ -204,43 +136,90 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.CustomerCarePageTest">
         <methods>
-          <include name="verifytexton_CustomercarePage"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
+    </classes>
+  </test> <!-- SignupPage(failed) -->
+  <test name="CustomercarePageTest(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
       <class name="com.amazon.qa.testcases.SignupPageTest">
         <methods>
           <include name="setup"/>
           <include name="Teardown"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
+      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.School_BookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
+      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
+        <methods>
+          <include name="verifytexton_CustomercarePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
     </classes>
   </test> <!-- CustomercarePageTest(failed) -->
   <test name="SchoolBooktest(failed)">
     <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
+      <class name="com.amazon.qa.testcases.SignupPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
+      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.School_BookTest">
         <methods>
           <include name="NavigationTOSocailScienceBook_Page"/>
@@ -254,59 +233,37 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.CustomerCarePageTest">
         <methods>
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
+    </classes>
+  </test> <!-- SchoolBooktest(failed) -->
+  <test name="SocialStudiesBooktest(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
       <class name="com.amazon.qa.testcases.SignupPageTest">
         <methods>
           <include name="setup"/>
           <include name="Teardown"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
+      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- SchoolBooktest(failed) -->
-  <test name="SocialStudiesBooktest(failed)">
-    <classes>
-      <class name="com.amazon.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="close"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
-      <class name="com.amazon.qa.testcases.School_BookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
+      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
       <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
         <methods>
           <include name="NameofBook"/>
@@ -315,31 +272,6 @@
           <include name="ClickOnTheFirstSocailBook"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
-      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
-      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
-      <class name="com.amazon.qa.testcases.SignupPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="Teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- SocialStudiesBooktest(failed) -->
-  <test name="MoreInformationonBook(failed)">
-    <classes>
       <class name="com.amazon.qa.testcases.LoginPageTest">
         <methods>
           <include name="close"/>
@@ -351,22 +283,32 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.School_BookTest -->
-      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
-      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
       <class name="com.amazon.qa.testcases.CustomerCarePageTest">
         <methods>
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
+    </classes>
+  </test> <!-- SocialStudiesBooktest(failed) -->
+  <test name="MoreInformationonBook(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
+      <class name="com.amazon.qa.testcases.SignupPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
       <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
         <methods>
           <include name="SelectionOfQauntity"/>
@@ -375,17 +317,75 @@
           <include name="Verificationoftitle"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.School_BookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
+      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
+    </classes>
+  </test> <!-- MoreInformationonBook(failed) -->
+  <test name="CartSectionTest(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.CarttestCases.CartSectionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CartVerification"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CarttestCases.CartSectionTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
       <class name="com.amazon.qa.testcases.SignupPageTest">
         <methods>
           <include name="setup"/>
           <include name="Teardown"/>
         </methods>
       </class> <!-- com.amazon.qa.testcases.SignupPageTest -->
-      <class name="com.amazon.qa.testcases.HomePageTest">
+      <class name="com.amazon.qa.testcases.MoreInformationOnbookTest">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+      </class> <!-- com.amazon.qa.testcases.MoreInformationOnbookTest -->
+      <class name="com.amazon.qa.testcases.SocialStudiesBookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.SocialStudiesBookTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.School_BookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.School_BookTest -->
+      <class name="com.amazon.qa.testcases.CustomerCarePageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.CustomerCarePageTest -->
     </classes>
-  </test> <!-- MoreInformationonBook(failed) -->
+  </test> <!-- CartSectionTest(failed) -->
 </suite> <!-- Failed suite [AmazonAlltestCases] -->

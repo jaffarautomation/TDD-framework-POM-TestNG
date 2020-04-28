@@ -29,7 +29,7 @@ public class SocialStudiesBookTest extends TestBase {
 		
 		
 		
-		@BeforeMethod
+		@BeforeMethod(groups = {"Regression"})
 		public void setup() throws Throwable
 		{ 
 			
@@ -44,7 +44,7 @@ public class SocialStudiesBookTest extends TestBase {
 		
 		//This method verify the title of the bookpage i.e Social Book page.If title failed error message will be display on console.
 		//ScreenShot method is also called to take Screenshot for 
-		@Test(priority =1)
+		@Test(priority =1, groups = {"Regression"})
 		public void verificationOfSocialBookTitlePage() throws Throwable
 		{
 			
@@ -67,7 +67,7 @@ public class SocialStudiesBookTest extends TestBase {
 	
 		//This method will call the method from SocialStudiesBook class from pages package and click on the first book available from the page.
 		//Also this method is depends on "verificationOfSocialBookTitlePage". 
-		@Test(priority=2, dependsOnMethods= {"verificationOfSocialBookTitlePage"})
+		@Test(priority=2, dependsOnMethods= {"verificationOfSocialBookTitlePage"},groups = {"Regression"})
 		public void ClickOnTheFirstSocailBook() throws Throwable
 		{
 			SocialStudy.clickfirstonbook();
@@ -75,10 +75,10 @@ public class SocialStudiesBookTest extends TestBase {
 		
 		
 		
-		/*@AfterMethod
+		@AfterMethod(groups = {"Regression"})
 		public void teardown()
 		{
 			driver.quit();
-		}*/
+		}
 	
 }

@@ -31,7 +31,7 @@ public class School_BookTest extends TestBase {
 	
 	
 	
-	@BeforeMethod
+	@BeforeMethod(groups = {"Regression"})
 	public void setup() throws Throwable
 	{ 
 		
@@ -55,14 +55,14 @@ public class School_BookTest extends TestBase {
 	
 	
 	//This method navigate to Social science book page
-	@Test(priority=2, dependsOnMethods= {"verificationOfBookTitlePage"})
+	@Test(priority=2, groups = {"Regression"})
 	public void NavigationTOSocailScienceBook_Page() throws Throwable
 	{
 		SocialStudy=AllBooks.SelectTypesOfBooks();
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(groups = {"Regression"})
 	public void teardown()
 	{
 		driver.quit();
