@@ -33,12 +33,12 @@ public class HomePage extends TestBase{
 		@FindBy(xpath ="//a[@id='nav-hamburger-menu']")
 		WebElement sidebar;
 		
-		@FindBy(xpath ="//a[@data-menu-id='16']")
+		@FindBy(xpath ="//a[@data-menu-id='17']")
 		WebElement ClickonBooks;
 		
 		
 
-		@FindBy(xpath ="//ul[@class='hmenu hmenu-visible hmenu-translateX' and @data-menu-id='1']/li/a/child::div")
+		@FindBy(xpath ="//ul[@class='hmenu hmenu-visible hmenu-translateX' and @data-menu-id='17']/li/a")
 		List<WebElement> AllCatogories;
 		
 		
@@ -76,7 +76,7 @@ public class HomePage extends TestBase{
 				
 				String NameofAllCatogories =AllOptions.getText();
 				
-				if(NameofAllCatogories.contains("Gift Cards &"))
+				if(NameofAllCatogories.contains("School Textbooks"))
 				{
 					JavaScriptMethod.scrolltillvisible(driver, AllOptions);
 					AllOptions.click();

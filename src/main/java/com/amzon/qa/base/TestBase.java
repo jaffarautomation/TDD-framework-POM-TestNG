@@ -17,6 +17,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.amazon.qa.helper.browserConfig.propertyreader.configFilereader;
 import com.amazon.qa.helper.logger.LoggerHelper;
+import com.amazon.qa.helper.seleniumHelperUtility.window.WindowHelper;
 import com.amazon.qa.helper.wait.WaitHelper;
 import com.crm.qa.util.WebEventListener;
 import com.crm.qa.util.utilsTest;
@@ -33,6 +34,7 @@ public class TestBase {
 
 	/***
 	 * This Constructor is used to initialize the properties class
+	 * 
 	 * @throws Throwable
 	 */
 	public TestBase() throws Throwable {
@@ -65,20 +67,19 @@ public class TestBase {
 			driver = new FirefoxDriver();
 		}
 
-		
-		  e_driver = new EventFiringWebDriver(driver); 
-		  try { e_eventdriver = new
-		  WebEventListener(); } 
-		  catch (Throwable e) 
-		  {  e.printStackTrace(); }
-		  
-		  e_driver.register(e_eventdriver);
-		  
-		  driver=e_driver;
-		  
-		 
+	/*	e_driver = new EventFiringWebDriver(driver);
+		try {
+			e_eventdriver = new WebEventListener();
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
 
-		driver.manage().window().maximize();
+		e_driver.register(e_eventdriver);
+
+		driver = e_driver;
+*/
+		WindowHelper.MaximizeWindow();
+		// driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		// driver.manage().timeouts().pageLoadTimeout(utilsTest.PAGE_LOAD_TIMEOUT,
 		// TimeUnit.SECONDS);

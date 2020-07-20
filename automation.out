@@ -139,3 +139,134 @@
 2020-04-24 17:04:31 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
 2020-04-24 17:04:686 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
 2020-04-24 17:04:816 INFO  TestListener:36 - *** Test Class got Ended : Default test
+2020-06-11 18:06:308 INFO  TestListener:28 - *** Started Running Class : To Check login Class Functionality
+2020-06-11 18:06:703 INFO  TestListener:28 - *** Started Running Class : To Check login Class Functionality
+2020-06-11 18:06:720 INFO  TestBase:49 - Browser Initialization is started
+2020-06-11 18:06:780 INFO  TestBase:43 - returned browser type is :firefox
+2020-06-11 18:06:277 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-11 18:06:338 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-11 18:06:347 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-06-11 18:06:441 INFO  TestBase:90 - Browser Initialization ended
+2020-06-11 18:06:787 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-11 18:06:864 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-11 18:06:872 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-11 18:06:875 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-11 18:06:163 INFO  TestBase:49 - Browser Initialization is started
+2020-06-11 18:06:165 INFO  TestBase:43 - returned browser type is :firefox
+2020-06-11 18:06:880 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-11 18:06:893 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-11 18:06:921 INFO  TestBase:50 - retured URL is : https://www.amazon.in/
+2020-06-11 18:06:352 INFO  TestBase:90 - Browser Initialization ended
+2020-06-11 18:06:354 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-11 18:06:356 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-11 18:06:330 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-11 18:06:334 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-11 18:06:760 INFO  TestListener:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-11 18:06:103 INFO  TestListener:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-11 20:06:746 INFO  TestListener:28 - *** Started Running Class : To Check login Class Functionality
+2020-06-11 20:06:960 INFO  TestListener:28 - *** Started Running Class : To Check login Class Functionality
+2020-06-11 20:06:984 INFO  TestBase:51 - Browser Initialization is started
+2020-06-11 20:06:988 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-11 20:06:212 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-11 20:06:226 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-11 20:06:234 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-11 20:06:526 INFO  TestBase:91 - Browser Initialization ended
+2020-06-11 20:06:605 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-11 20:06:621 INFO  TestListener:62 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-11 20:06:633 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-11 20:06:633 INFO  TestListener:73 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-11 20:06:812 INFO  TestBase:51 - Browser Initialization is started
+2020-06-11 20:06:812 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-11 20:06:388 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-11 20:06:396 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-11 20:06:409 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-11 20:06:97 INFO  TestBase:91 - Browser Initialization ended
+2020-06-11 20:06:97 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-11 20:06:101 INFO  TestListener:62 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-11 20:06:749 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-11 20:06:753 INFO  TestListener:73 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-11 20:06:243 INFO  TestListener:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-11 20:06:236 INFO  TestListener:36 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-11 20:06:404 INFO  TestListener:28 - *** Started Running Class : To check HomePage Class Functionality
+2020-06-11 20:06:409 INFO  TestBase:51 - Browser Initialization is started
+2020-06-11 20:06:409 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-11 20:06:520 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-11 20:06:530 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-11 20:06:536 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-11 20:06:816 INFO  TestBase:91 - Browser Initialization ended
+2020-06-11 20:06:136 INFO  TestListener:62 - *** Started Running Test Method : verifyusername
+2020-06-11 20:06:432 INFO  TestListener:80 - *** Test Method : verifyusername got  failed...
+2020-06-11 20:06:348 INFO  TestListener:36 - *** Test Class got Ended : To check HomePage Class Functionality
+2020-06-12 10:06:815 INFO  TestListener:33 - *** Started Running Class : To Check login Class Functionality
+2020-06-12 10:06:185 INFO  TestListener:33 - *** Started Running Class : To Check login Class Functionality
+2020-06-12 10:06:212 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:216 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:282 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-12 10:06:320 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-12 10:06:348 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:778 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:34 INFO  TestListener:67 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-12 10:06:104 INFO  TestListener:67 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-12 10:06:270 INFO  TestListener:78 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-12 10:06:278 INFO  TestListener:78 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-12 10:06:462 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:465 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:378 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-12 10:06:388 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-12 10:06:404 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:669 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:669 INFO  TestListener:67 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-12 10:06:677 INFO  TestListener:67 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-12 10:06:420 INFO  TestListener:78 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-12 10:06:428 INFO  TestListener:78 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-12 10:06:925 INFO  TestListener:41 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-12 10:06:425 INFO  TestListener:41 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-12 10:06:728 INFO  TestListener:33 - *** Started Running Class : To check HomePage Class Functionality
+2020-06-12 10:06:730 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:730 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:175 INFO  WaitHelper:36 - Implicit wait set to :120 SECONDS
+2020-06-12 10:06:181 INFO  WaitHelper:58 - Page Load time set to : 100 SECONDS
+2020-06-12 10:06:189 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:600 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:863 INFO  TestListener:67 - *** Started Running Test Method : verifyusername
+2020-06-12 10:06:36 INFO  TestListener:85 - *** Test Method : verifyusername got  failed...
+2020-06-12 10:06:701 INFO  TestListener:41 - *** Test Class got Ended : To check HomePage Class Functionality
+2020-06-12 10:06:12 INFO  TestListener:33 - *** Started Running Class : To Check login Class Functionality
+2020-06-12 10:06:321 INFO  TestListener:33 - *** Started Running Class : To Check login Class Functionality
+2020-06-12 10:06:345 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:345 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:278 INFO  WaitHelper:36 - Implicit wait set to :15 SECONDS
+2020-06-12 10:06:291 INFO  WaitHelper:58 - Page Load time set to : 20 SECONDS
+2020-06-12 10:06:303 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:593 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:659 INFO  TestListener:67 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-12 10:06:693 INFO  TestListener:67 - *** Started Running Test Method : ToVerifyThePageTitle
+2020-06-12 10:06:717 INFO  TestListener:78 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-12 10:06:721 INFO  TestListener:78 - *** Test Method ToVerifyThePageTitle got Executed Successfully
+2020-06-12 10:06:127 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:132 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:814 INFO  WaitHelper:36 - Implicit wait set to :15 SECONDS
+2020-06-12 10:06:828 INFO  WaitHelper:58 - Page Load time set to : 20 SECONDS
+2020-06-12 10:06:840 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:181 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:185 INFO  TestListener:67 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-12 10:06:186 INFO  TestListener:67 - *** Started Running Test Method : ToverifyLoginFunctionality
+2020-06-12 10:06:837 INFO  TestListener:78 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-12 10:06:843 INFO  TestListener:78 - *** Test Method ToverifyLoginFunctionality got Executed Successfully
+2020-06-12 10:06:242 INFO  TestListener:41 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-12 10:06:121 INFO  TestListener:41 - *** Test Class got Ended : To Check login Class Functionality
+2020-06-12 10:06:347 INFO  TestListener:33 - *** Started Running Class : To check HomePage Class Functionality
+2020-06-12 10:06:353 INFO  TestBase:51 - Browser Initialization is started
+2020-06-12 10:06:353 INFO  configFilereader:43 - returned browser type is :firefox
+2020-06-12 10:06:833 INFO  WaitHelper:36 - Implicit wait set to :15 SECONDS
+2020-06-12 10:06:867 INFO  WaitHelper:58 - Page Load time set to : 20 SECONDS
+2020-06-12 10:06:879 INFO  configFilereader:50 - retured URL is : https://www.amazon.in/
+2020-06-12 10:06:546 INFO  TestBase:91 - Browser Initialization ended
+2020-06-12 10:06:07 INFO  TestListener:67 - *** Started Running Test Method : verifyusername
+2020-06-12 10:06:156 INFO  TestListener:85 - *** Test Method : verifyusername got  failed...
+2020-06-12 10:06:37 INFO  TestListener:41 - *** Test Class got Ended : To check HomePage Class Functionality
+2020-06-18 13:06:661 INFO  DataBaseHelper:61 - Driver not found java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+2020-06-18 13:06:551 INFO  DataBaseHelper:61 - Driver not found java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+2020-06-18 13:06:232 INFO  DataBaseHelper:61 - Driver not found java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+2020-06-18 14:06:22 INFO  DataBaseHelper:61 - Driver not found java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+2020-06-18 14:06:43 INFO  DataBaseHelper:61 - Driver not found java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver

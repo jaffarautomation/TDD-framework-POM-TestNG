@@ -1,8 +1,13 @@
 package com.qa.ExtendreportListerner;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Collection;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.IResultMap;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -10,6 +15,7 @@ import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 
 import com.amazon.qa.helper.logger.LoggerHelper;
+import com.amazon.qa.helper.screenshotHelper.ScreenShotHelperUtility;
 import com.amzon.qa.base.TestBase;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -24,7 +30,7 @@ public class TestListener extends TestBase implements ITestListener {
 	}
 
 	public void onStart(ITestContext context) {
-	
+
 		log.info("*** Started Running Class : " + context.getName());
 		ExtentTest r = ExtentTestManager.startTest(context.getName());
 		r.log(Status.INFO, "Starting to executed all method in class");
@@ -73,19 +79,42 @@ public class TestListener extends TestBase implements ITestListener {
 		log.info("*** Test Method " + result.getMethod().getMethodName() + " got Executed Successfully");
 		ExtentTestManager.getTest().log(Status.PASS,
 				"Test Method : " + result.getMethod().getMethodName() + " got  Successfully Passed");
+		
+		try {
+			ScreenShotHelperUtility.ScreenShot(result.getMethod().getMethodName(),result.getStatus());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void onTestFailure(ITestResult result) {
 
-		log.info("*** Test Method : " + result.getMethod().getMethodName() + " got  failed...");
+		log.info("*** Test Method : " + result.getMethod().getMethodName() + " got  failed..."+ "with Status : " +result.getStatus());
 		ExtentTestManager.getTest().log(Status.FAIL,
 				"Test Method : " + result.getMethod().getMethodName() + " got  Failed");
+
+		try {
+			ScreenShotHelperUtility.ScreenShot(result.getMethod().getMethodName(),result.getStatus());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("*** Test Method : " + result.getMethod().getMethodName() + " got skipped...");
 		ExtentTestManager.getTest().log(Status.SKIP,
 				"Test Method : " + result.getMethod().getMethodName() + " got Skipped");
+		
+		try {
+			ScreenShotHelperUtility.ScreenShot(result.getMethod().getMethodName(),result.getStatus());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

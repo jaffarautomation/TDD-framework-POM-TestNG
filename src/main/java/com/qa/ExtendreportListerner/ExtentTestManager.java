@@ -24,6 +24,7 @@ public class ExtentTestManager {
 		extentTestMap.put((int) (long) (Thread.currentThread().getId()), test);
 		System.out.println(extentTestMap);
 		return test;
+		
 
 }
 	

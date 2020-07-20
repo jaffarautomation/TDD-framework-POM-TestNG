@@ -17,7 +17,7 @@ public class configFilereader extends TestBase implements ConfigReaderInterface 
 		// TODO Auto-generated constructor stub
 	}
 
-	static Logger log = LoggerHelper.getlogger(TestBase.class);
+	static Logger log = LoggerHelper.getlogger(configFilereader.class);
 
 	public int getImplicitWaitTime() {
 

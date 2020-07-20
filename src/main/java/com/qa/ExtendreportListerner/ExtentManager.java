@@ -17,7 +17,8 @@ public class ExtentManager {
 	    private static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
 	  
 	 
-	    public static ExtentReports getInstance() {
+	    public static ExtentReports getInstance()
+	    {
 	        if (extent == null)
 	            createInstance();
 	        return extent;

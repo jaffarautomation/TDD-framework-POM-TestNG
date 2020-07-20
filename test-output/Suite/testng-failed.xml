@@ -9,4 +9,28 @@
       <class name="com.amazon.qa.testcases.LoginPageTest"/>
     </classes>
   </test> <!-- To Check login Class Functionality -->
+  <test name="To check HomePage Class Functionality">
+    <classes>
+      <class name="com.amazon.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- To check HomePage Class Functionality -->
+  <test name="To check HomePage Class Functionality(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Navigatetobook"/>
+          <include name="click_on_CC"/>
+          <include name="setup"/>
+          <include name="verifyusername"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- To check HomePage Class Functionality(failed) -->
 </suite> <!-- Failed suite [Suite] -->

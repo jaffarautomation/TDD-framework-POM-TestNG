@@ -13,4 +13,12 @@
       <class name="com.amazon.qa.testcases.LoginPageTest"/>
     </classes>
   </test> <!-- Test -->
+  
+  
+  <test name="To check HomePage Class Functionality">
+		<classes>
+			<class name="com.amazon.qa.testcases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+  
 </suite> <!-- Suite -->
